@@ -1,0 +1,146 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+                />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="horizontal"
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2">
+                <com.google.android.gms.ads.AdView
+                    ads:adUnitId="@string/Banner_Ads37"
+                ads:adSize="350x50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/adView1par" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutupdateClient">
+                <TextView
+                    android:text="      "
+                    android:background="@color/colortexttext"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:id="@+id/textView4" />
+                <TextView
+                    android:text="Modifier Client"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView1"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutchangeDevise">
+                <TextView
+                    android:text="      "
+                    android:background="@color/colortexttext"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:id="@+id/textView5" />
+                <TextView
+                    android:text="Changer Devise"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutchangemdp">
+                <TextView
+                    android:text="      "
+                    android:background="@color/colortexttext"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:id="@+id/textView6" />
+                <TextView
+                    android:text="Changer Mot de passe"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView3"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutBanque">
+                <TextView
+                    android:text="      "
+                    android:background="@color/colortexttext"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:id="@+id/textView7" />
+                <TextView
+                    android:gravity="center"
+                    android:text="Changer Donnes Bancaire"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView8"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_weight="0">
+        <com.google.android.gms.ads.AdView
+           ads:adUnitId="@string/Banner_Ads38"
+                ads:adSize="350x50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adView2par" />
+        <com.google.android.gms.ads.AdView
+             ads:adUnitId="@string/Banner_Ads39"
+                ads:adSize="350x50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adView3par" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

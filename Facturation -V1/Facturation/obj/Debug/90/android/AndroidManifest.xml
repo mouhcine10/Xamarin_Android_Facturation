@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.5" package="com.companyname.facturation" android:installLocation="auto" android:versionCode="5">
+  <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="29" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+  <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+  <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM" />
+  <uses-permission android:name="android.permission.READ_SOCIAL_STREAM" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+  <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+  <uses-permission android:name="android.permission.BIND_PRINT_SERVICE" />
+  <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+  <application android:allowBackup="true" android:icon="@drawable/noir" android:theme="@style/Theme.AppCompat.Light" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="Article" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.AjouteritemDevisuodate" />
+    <activity android:label="Article" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.AjouterItemsFactureUpdate" />
+    <activity android:label="Change mot de passe" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Changemotdepasse" />
+    <activity android:label="Clients" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ClientssDevis" />
+    <activity android:label="Clients" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Clientss" />
+    <activity android:label="Vos Informations" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.CreationClient1" />
+    <activity android:label="Informations Bancaire" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.CreationClient2" />
+    <activity android:label="Logo" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.CreationClient3" />
+    <activity android:label="Mot de passe" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.CreationClient4" />
+    <activity android:label="Article" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.DetailDevisArticle" />
+    <activity android:label="Article" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.DetaildevisUpdate" />
+    <activity android:label="ActivityDetail" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.DetailFacture" />
+    <activity android:icon="@drawable/noir" android:label="ActivityDetail" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.DetailFactureUpdate" />
+    <activity android:label="Devis" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Deviss" />
+    <activity android:label="DevisDetail" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.DevisDetail" />
+    <activity android:label="Factrue Detail" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.FactrueDetail" />
+    <activity android:label="Facture" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Facturee" />
+    <activity android:label="Headernavbar" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Headernavbar" />
+    <activity android:label="Home" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Itemsapp" />
+    <activity android:icon="@drawable/noir" android:label="QuickFact" android:name="crc64bbe8c6b492b762fc.Lancer">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Signature" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.LayoutSegnature" />
+    <activity android:label="Signature" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.LayoutsignatureDevis" />
+    <activity android:label="List Factures" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Listacture" />
+    <activity android:label="Liste Devis" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ListDevis" />
+    <activity android:label="Liste Devis" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ListDevisEncours" />
+    <activity android:label="Liste Devis" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ListDevisHome" />
+    <activity android:label="List Factures" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Listfacturenonpayer" />
+    <activity android:label="List Factures" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ListactureHome" />
+    <activity android:label="Liste Produits/Services" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ListProduitsStandart" />
+    <activity android:label="Liste Produits/Services" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ListProduitsDevis" />
+    <activity android:label="Liste Produits/Services" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ListProduits" />
+    <activity android:label="@string/app_name" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.MainActivity" />
+    <activity android:label="Oublier" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Oublier" />
+    <activity android:icon="@drawable/noir" android:label="PageHome" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.PageHome" />
+    <activity android:label="parametre" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.parametre" />
+    <activity android:label="PDFlayout" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.PDFlayout" />
+    <activity android:label="PDFlayout" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.PDFlayoutDevis" />
+    <activity android:label="Produit/Service" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Produit" />
+    <activity android:label="Produit/Service" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.ProduitDevis" />
+    <activity android:label="Signature" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Signaturetransfor" />
+    <activity android:label="UpdateAdminInfo" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.UpdateAdminInfo" />
+    <activity android:label="UpdateDevis" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.UpdateDevis" />
+    <activity android:label="Updatedevise" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Updatedevise" />
+    <activity android:label="DevisDetail" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Updatedevisupdateinfo" />
+    <activity android:label="Updatefacture" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Updatefacture" />
+    <activity android:label="modifier Info facture" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.UpdateFactureupdateinfo" />
+    <activity android:label="UpdateInfoBanque" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.UpdateInfoBanque" />
+    <activity android:label="Modifier mot de passe" android:theme="@style/AppTheme.NoActionBar" android:name="crc64bbe8c6b492b762fc.Updatepassword" />
+    <activity android:label="List CLients" android:theme="@style/AppTheme.NoActionBar" android:name="crc64342ce3c13c74d595.ListClientDevisupdate" />
+    <activity android:label="List CLients" android:theme="@style/AppTheme.NoActionBar" android:name="crc64342ce3c13c74d595.ListClientDevis" />
+    <activity android:label="List CLients" android:theme="@style/AppTheme.NoActionBar" android:name="crc64342ce3c13c74d595.ListCLientsUpdate" />
+    <activity android:label="List CLients" android:theme="@style/AppTheme.NoActionBar" android:name="crc64342ce3c13c74d595.ListCLients" />
+    <activity android:label="List CLients" android:theme="@style/AppTheme.NoActionBar" android:name="crc64342ce3c13c74d595.ListCLientsStandart" />
+    <service android:name="crc64a98abb514ffad9f1.KeepAliveService" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver" />
+    <provider android:authorities="com.companyname.facturation.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="xamarin.essentials.fileProvider">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/xamarin_essentials_fileprovider_file_paths" />
+    </provider>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.facturation.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.facturation" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.karumi.dexter.DexterActivity" android:theme="@style/Dexter.Internal.Theme.Transparent" />
+    <!--Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+    <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+</manifest>
