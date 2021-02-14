@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  
+  <string name = "Mod"> Изменить пароль: </string>
+  <string name = "motdepasseactuelle"> текущий пароль: </string>
+  <string name = "Motdepasse"> Пароль: </string>
+  <string name = "ConfermationMotdepasse"> Пароль подтверждения: </string>
+  
+  <string name = "InformationBancaire"> Банковская информация: </string>
+  <string name = "Nomdebanque"> Название банка: </string>
+  <string name = "BIC"> BIC: </string>
+  <string name = "IBAN"> IBAN: </string>
+  
+  <string name = "ModiferDevise"> Изменить валюту: </string>
+  <string name = "Deviseactuel"> Текущая валюта: </string>
+  <string name = "ChoisivotreDevise"> Выберите валюту </string>
+  <string name = "Valider"> Проверить </string>
+  
+  <string name = "Email"> Электронная почта </string>
+  <string name = "mdp"> Пароль </string>
+  <string name = "mdpO"> Забыли пароль </string>
+  <string name = "btnconncter"> Подключить </string>
+  <string name = "Creercmpt"> Создайте учетную запись </string>
+
+  
+  <string name = "Name"> Имя: </string>
+  <string name = "Telephone"> Телефон: </string>
+  <string name = "EmailClinet"> Электронная почта: </string>
+  <string name = "Address"> Адрес: </string>
+  <string name = "PostalCode"> Почтовый индекс: </string>
+  <string name = "Pays"> Страна: </string>
+  <string name = "ville"> Город: </string>
+  <string name = "Enregistrer"> Сохранить </string>
+
+  <string name = "Nomcl1"> Имя: </string>
+  <string name = "Emailcl1"> Электронная почта: </string>
+  <string name = "adressecl1"> Адрес: </string>
+  <string name = "Telephonecl1"> Телефон: </string>
+  <string name = "PostalCodecl1"> Почтовый индекс: </string>
+  <string name = "Villecl1"> Город: </string>
+  <string name = "Payscl1"> Страна: </string>
+  <string name = "btncl1suivant"> Далее </string>
+  <string name = "Nomdebanquecl2"> Название банка: </string>
+  <string name = "BICcl2"> BIC: </string>
+  <string name = "IBANcl2"> IBAN: </string>
+  <string name = "btncl2suivant"> Далее </string>
+  <string name = "btncl2precedant"> Предыдущий </string>
+
+
+  <string name = "getlogocl3"> Загрузить </string>
+  <string name = "btncl3suivant"> Далее </string>
+  <string name = "btncl3precedant"> Предыдущий </string>
+
+
+  <string name = "txtMotdepassecl4"> Пароль: </string>
+  <string name = "mdpcl4"> Пароль: </string>
+  <string name = "cmdpcl4"> Подтвердите пароль: </string>
+  <string name = "btnpreccl4"> Предыдущий </string>
+  <string name = "btnokcl4"> нормально </string>
+
+
+ 
+  <string name = "selectarticlefact"> Выбранный элемент или услуга </string>
+  <string name = "Typeproduitfact"> Тип продукта: </string>
+  <string name = "Articlefact"> Статья: </string>
+  <string name = "Prixufact"> Цена за единицу: </string>
+  <string name = "Qtefact"> Количество: </string>
+  <string name = "Remisefact"> Скидка: </string>
+  <string name = "TVAfact"> Tva: </string>
+  <string name = "Enregistrerfact"> Сохранить </string>
+
+
+
+  <string name = "phraseFacture"> щелкните, чтобы изменить информацию </string>
+  <string name = "IDFacture"> Номер счета: </string>
+  <string name = "EntrepriseFacture"> Компания </string>
+  <string name = "DatecreationFacture"> Дата создания </string>
+  <string name = "DatedeEchenceFacture"> Срок сдачи </string>
+  <string name = "ChoisirvotreclientFacture"> Выберите своего клиента </string>
+  <string name = "AjouterArticleServiceFacture"> Добавить товар / услугу </string>
+  <string name = "SousTotalFacture"> Промежуточная сумма: </string>
+  <string name = "RemiseFacture"> Скидка: </string>
+  <string name = "TaxeInvoice"> НДС: </string>
+  <string name = "TotalInvoice"> Итого: </string>
+  <string name = "ModedepaiementFacture"> Способ оплаты: </string>
+  <string name = "NoteFacture"> Примечание: </string>
+  <string name = "SignatureFacture"> Подпись: </string>
+  <string name = "IDFactureDetail"> Номер счета: </string>
+  <string name = "EntrepriseDetailFacture"> Компания: </string>
+  <string name = "DatefacturationDetailFacture"> Дата выставления счета: </string>
+  <string name = "DateValiditeDetailFacture"> Срок сдачи: </string>
+ 
+  <string name = "DevisEncours"> Текущая оценка </string>
+  <string name = "DevisValide"> Подтвержденное предложение </string>
+  <string name = "FactureNonpayee"> Счет не оплачен </string>
+  <string name = "FacturePayee"> Счет оплачен </string>
+  <string name = "Balance"> Баланс </string>
+  <string name = "TotaldesFacturesCree"> Всего создано счетов </string>
+  <string name = "TotalNonPayee"> Всего не выплачено </string>
+  <string name = "TotalPayee"> Общая выплаченная сумма </string>
+  <string name = "TotaldesdevisGree"> Всего создано цитат </string>
+  <string name = "TotalDevisEncours"> Общая оценка выдающейся </string>
+  <string name = "TotalDevisValide"> Общая проверенная оценка</string>
+
+
+  <string name = "phraseFactureUpdate"> щелкните, чтобы изменить информацию </string>
+  <string name = "IDFactureUpdate"> Номер счета: </string>
+  <string name = "EntrepriseFactureUpdate"> Компания </string>
+  <string name = "DatecreationFactureUpdate"> Дата выставления счета </string>
+  <string name = "DatedeEchenceFactureUpdate"> Срок сдачи </string>
+  <string name = "ChoisirvotreclientFactureUpdate"> Выберите своего клиента </string>
+  <string name = "AjouterArticleServiceFactureUpdate"> Добавить товар / услугу </string>
+  <string name = "SousTotalFactureUpdate"> Промежуточная сумма: </string>
+  <string name = "RemiseFactureUpdate"> Скидка: </string>
+  <string name = "TaxeFactureUpdate"> НДС: </string>
+  <string name = "TotalFactureUpdate"> Итого: </string>
+  <string name = "ModedepaiementFactureUpdate"> Способ оплаты: </string>
+  <string name = "NoteFactureUpdate"> Примечание: </string>
+  <string name = "SignatureFactureUpdate"> Подпись: </string>
+
+
+  <string name = "Motdepasseoublie"> Забыли пароль </string>
+  <string name = "Emailo"> Электронная почта: </string>
+  <string name = "Envoyero"> Отправить: </string>
+  <string name = "Codevalidation"> Код проверки: </string>
+
+
+  <string name = "phraseDevisUpdate"> щелкните, чтобы изменить информацию </string>
+  <string name = "IDDevisUpdate"> Цитата №: </string>
+  <string name = "EntrepriseDevisUpdate"> Компания </string>
+  <string name = "DatecreationDevisUpdate"> Дата создания </string>
+  <string name = "DatedevalidationDevisUpdate"> Проверка даты </string>
+  <string name = "ChoisirvotreclientDevisUpdate"> Выберите своего клиента </string>
+  <string name = "AjouterArticleServiceDevisUpdate"> Добавить статью / услугу </string>
+  <string name = "SousTotalDevisUpdate"> Промежуточная сумма: </string>
+  <string name = "RemiseDevisUpdate"> Скидка: </string>
+  <string name = "TaxeDevisUpdate"> НДС: </string>
+  <string name = "TotalDevisUpdate"> Итого: </string>
+  <string name = "ModedepayementDevisUpdate"> Способ оплаты: </string>
+  <string name = "NoteDevisUpdate"> Примечание: </string>
+  <string name = "transfer"> Переведено в счет-фактуру </string>
+
+  <string name = "IDDevisDetail"> Цитата №: </string>
+  <string name = "EntrepriseDetailDevis"> Компания: </string>
+  <string name = "DatecreationDetail"> Дата создания: </string>
+  <string name = "DateValiditeDetail"> Срок действия даты: </string>
+
+  <string name = "ModifierClient"> Изменить клиента: </string>
+  <string name = "ChangerDevise"> Изменить валюту: </string>
+  <string name = "ChangerMotdepasse"> Изменить пароль: </string>
+  <string name = "ChangerDonnesBancaire"> Изменить банковский счет </string>
+
+
+  <string name = "phraseDevis"> щелкните, чтобы изменить информацию </string>
+  <string name = "IDDevis"> Цитата №: </string>
+  <string name = "EntrepriseDevis"> Компания </string>
+  <string name = "DatecreationDevis"> Дата создания </string>
+  <string name = "DatedevalidationDevis"> Проверка даты </string>
+  <string name = "ChoisirvotreclientDevis"> Выберите клиента </string>
+  <string name = "AjouterArticleServiceDevis"> Добавить статью / услугу </string>
+  <string name = "SousTotalDevis"> Промежуточный итог: </string>
+  <string name = "RemiseDevis"> Скидка: </string>
+  <string name = "TaxeDevis"> НДС: </string>
+  <string name = "TotalDevis"> Итого: </string>
+  <string name = "ModedepaiementDevis"> Способ оплаты:</string>
+  <string name = "NoteDevis"> Примечание: </string>
+  <string name = "SignatureDevis"> Подпись: </string>
+
+
+
+
+
+
+  <string name = "TypeP"> Тип: </string>
+  <string name = "NomproduitP"> Название продукта: </string>
+  <string name = "PrixP"> Цена: </string>
+  <string name = "TVAP"> НДС: </string>
+  <string name = "EnregistrerP"> Сохранить </string>
+  <string name = "Qtelist"> Кол-во </string>
+  <string name = "prixlist"> Цена </string>
+
+
+  <string name = "DateEchence"> Срок действия истек </string>
+  <string name = "Typetikp"> Тип </string>
+  <string name = "Nomtikp"> Имя </string>
+  <string name = "Prixtikp"> Цена </string>
+
+  <string name = "Datevalidation"> Проверка даты </string>
+
+
+
+
+    <string name="ApplicationName">FingerPaint</string>
+
+  <string name="color_spinner_prompt">Color</string>
+
+  <string-array name="colors_array">
+    <item>Red</item>
+    <item>Green</item>
+    <item>Blue</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Yellow</item>
+    <item>Black</item>
+    <item>Gray</item>
+    <item>White</item>
+  </string-array>
+
+  <string name="width_spinner_prompt">Width</string>
+
+  <string-array name="widths_array">
+    <item>Thin</item>
+    <item>Thinish</item>
+    <item>Medium</item>
+    <item>Thickish</item>
+    <item>Thick</item>
+  </string-array>
+
+  <string name="clearText">Clear</string>
+  <string-array name="Devise">
+    <item>AED</item>
+    <item>AFN</item>
+    <item>ALL</item>
+    <item>AMD</item>
+    <item>AOA</item>
+    <item>ARS</item>
+    <item>AUD</item>
+    <item>AWG</item>
+    <item>AZN</item>
+    <item>BAM</item>
+    <item>BBD</item>
+    <item>BDT</item>
+    <item>BGN</item>
+    <item>BHD</item>
+    <item>BIF</item>
+    <item>BMD</item>
+    <item>BND</item>
+    <item>BOB</item>
+    <item>BRL</item>
+    <item>BSD</item>
+    <item>BTC</item>
+    <item>BTN</item>
+    <item>BWP</item>
+    <item>BYN</item>
+    <item>BZD</item>
+    <item>CAD</item>
+    <item>CDF</item>
+    <item>CHF</item>
+    <item>CLP</item>
+    <item>CNY</item>
+    <item>COP</item>
+    <item>CRC</item>
+    <item>CUP</item>
+    <item>CVE</item>
+    <item>CZK</item>
+    <item>DJF</item>
+    <item>DKK</item>
+    <item>DOP</item>
+    <item>DZD</item>
+    <item>EGP</item>
+    <item>ERN</item>
+    <item>ETB</item>
+    <item>ETH</item>
+    <item>EUR</item>
+    <item>FJD</item>
+    <item>FKP</item>
+    <item>GBP</item>
+    <item>GEL</item>
+    <item>GHS</item>
+    <item>GIP</item>
+    <item>GMD</item>
+    <item>GNF</item>
+    <item>GTQ</item>
+    <item>GYD</item>
+    <item>HKD</item>
+    <item>HNL</item>
+    <item>HRK</item>
+    <item>HTG</item>
+    <item>HUF</item>
+    <item>IDR</item>
+    <item>ILS</item>
+    <item>INR</item>
+    <item>IQD</item>
+    <item>IRR</item>
+    <item>ISK</item>
+    <item>JMD</item>
+    <item>JOD</item>
+    <item>JPY</item>
+    <item>KES</item>
+    <item>KGS</item>
+    <item>KHR</item>
+    <item>KMF</item>
+    <item>KPW</item>
+    <item>KRW</item>
+    <item>KWD</item>
+    <item>KYD</item>
+    <item>KZT</item>
+    <item>LAK</item>
+    <item>LBP</item>
+    <item>LKR</item>
+    <item>LRD</item>
+    <item>LSL</item>
+    <item>LTC</item>
+    <item>LYD</item>
+    <item>MAD</item>
+    <item>MDL</item>
+    <item>MGA</item>
+    <item>MKD</item>
+    <item>MMK</item>
+    <item>MNT</item>
+    <item>MOP</item>
+    <item>MUR</item>
+    <item>MVR</item>
+    <item>MWK</item>
+    <item>MXN</item>
+    <item>MYR</item>
+    <item>NAD</item>
+    <item>NGN</item>
+    <item>NIO</item>
+    <item>NOK</item>
+    <item>NPR</item>
+    <item>NZD</item>
+    <item>OMR</item>
+    <item>PAB</item>
+    <item>PEN</item>
+    <item>PGK</item>
+    <item>PHP</item>
+    <item>PKR</item>
+    <item>PLN</item>
+    <item>PYG</item>
+    <item>QAR</item>
+    <item>RON</item>
+    <item>RSD</item>
+    <item>RUB</item>
+    <item>RWF</item>
+    <item>SAR</item>
+    <item>SBD</item>
+    <item>SCR</item>
+    <item>SEK</item>
+    <item>SGD</item>
+    <item>SHP</item>
+    <item>SLL</item>
+    <item>SOS</item>
+    <item>SRD</item>
+    <item>SVC</item>
+    <item>SYP</item>
+    <item>SZL</item>
+    <item>THB</item>
+    <item>TND</item>
+    <item>TOP</item>
+    <item>TRY</item>
+    <item>TTD</item>
+    <item>TWD</item>
+    <item>TZS</item>
+    <item>UAH</item>
+    <item>UGX</item>
+    <item>USD</item>
+    <item>UYU</item>
+    <item>UZS</item>
+    <item>VND</item>
+    <item>VUV</item>
+    <item>WST</item>
+    <item>YER</item>
+    <item>ZAR</item>
+  </string-array>
+  <string-array name="Type">
+    <item>Pourcentage</item>
+    <item>Montant</item>
+  </string-array>
+
+  <string-array name="ModePaimenet">
+    <item>Chèque</item>
+    <item>virement bancaire</item>
+    <item>Espéce</item>
+  </string-array>
+
+  <string-array name="ClientType">
+
+    <item>Personne Moral</item>
+    <item>Auto-entrepreneur</item>
+
+
+  </string-array>
+
+  <string-array name="Produit">
+
+    <item>Produit</item>
+    <item>Service</item>
+
+
+  </string-array>
+
+  <string name="Banner_Ads1">ca-app-pub-2426289228107279/3421070760</string>
+  <string name="Banner_Ads2">
+    ca-app-pub-2426289228107279/8742498441
+  </string>
+  <string name="Banner_Ads3">ca-app-pub-2426289228107279/5713026330</string>
+  <string name="Banner_Ads4">ca-app-pub-2426289228107279/8147617983</string>
+  <string name="Banner_Ads5">ca-app-pub-2426289228107279/6208668597</string>
+  <string name="Banner_Ads6">ca-app-pub-2426289228107279/7984784698</string>
+  <string name="Banner_Ads7">ca-app-pub-2426289228107279/5358621351</string>
+  <string name="Banner_Ads8">ca-app-pub-2426289228107279/6480131336</string>
+  <string name="Banner_Ads9">ca-app-pub-2426289228107279/2269423585</string>
+  <string name="Banner_Ads10">ca-app-pub-2426289228107279/3662396304</string>
+  <string name="Banner_Ads11">ca-app-pub-2426289228107279/5513715784</string>
+  <string name="Banner_Ads12">ca-app-pub-2426289228107279/4783906288</string>
+  <string name="Banner_Ads13">ca-app-pub-2426289228107279/9844661278</string>
+  <string name="Banner_Ads14">ca-app-pub-2426289228107279/4592334592</string>
+  <string name="Banner_Ads15">ca-app-pub-2426289228107279/9653089589</string>
+  <string name="Banner_Ads16">ca-app-pub-2426289228107279/2695324216</string>
+  <string name="Banner_Ads17">ca-app-pub-2426289228107279/9069160874</string>
+  <string name="Banner_Ads18">ca-app-pub-2426289228107279/5129915868</string>
+  <string name="Banner_Ads19">ca-app-pub-2426289228107279/2503752528</string>
+  <string name="Banner_Ads20">ca-app-pub-2426289228107279/4746772483</string>
+  <string name="Banner_Ads21">ca-app-pub-2426289228107279/3433690811</string>
+  <string name="Banner_Ads22">ca-app-pub-2426289228107279/9807527473</string>
+  <string name="Banner_Ads23">ca-app-pub-2426289228107279/5676710772</string>
+  <string name="Banner_Ads24">ca-app-pub-2426289228107279/5485139089</string>
+  <string name="Banner_Ads25">ca-app-pub-2426289228107279/9232812401</string>
+  <string name="Banner_Ads26">ca-app-pub-2426289228107279/5293567394</string>
+  <string name="Banner_Ads27"> ca-app-pub-2426289228107279/6415077375</string>
+  <string name="Banner_Ads28">ca-app-pub-2426289228107279/1162750693</string>
+  <string name="Banner_Ads29">ca-app-pub-2426289228107279/3405770654</string>
+  <string name="Banner_Ads30">ca-app-pub-2426289228107279/8451688557</string>
+  <string name="Banner_Ads31">ca-app-pub-2426289228107279/8274953956</string>
+  <string name="Banner_Ads32">ca-app-pub-2426289228107279/3022627275</string>
+  <string name="Banner_Ads33">ca-app-pub-2426289228107279/8083382260</string>
+  <string name="Banner_Ads34">ca-app-pub-2426289228107279/2639483893</string>
+  <string name="Banner_Ads35">ca-app-pub-2426289228107279/3398688336</string>
+  <string name="Banner_Ads36">ca-app-pub-2426289228107279/4520198312</string>
+  <string name="Banner_Ads37">ca-app-pub-2426289228107279/8267871637</string>
+  <string name="Banner_Ads38">ca-app-pub-2426289228107279/6763218276</string>
+  <string name="Banner_Ads39">ca-app-pub-2426289228107279/5450136608</string>
+  <string name="Banner_Ads40">ca-app-pub-2426289228107279/9197809929</string>
+  <string name="Banner_Ads41">ca-app-pub-2426289228107279/6571646583</string>
+  <string name="Banner_Ads42">ca-app-pub-2426289228107279/7138606887</string>
+  <string name="Banner_Ads43">ca-app-pub-2426289228107279/1319319906</string>
+  <string name="Banner_Ads44">ca-app-pub-2426289228107279/4200634116</string>
+  <string name="Banner_Ads45">ca-app-pub-2426289228107279/6993484267</string>
+  <string name="Banner_Ads46">ca-app-pub-2426289228107279/4512443544</string>
+  <string name="Banner_Ads47">ca-app-pub-2426289228107279/7009796137</string>
+  <string name="Banner_Ads48">ca-app-pub-2426289228107279/8814666549</string>
+  <string name="Banner_Ads49">ca-app-pub-2426289228107279/7501584878</string>
+  <string name="Banner_Ads50">ca-app-pub-2426289228107279/4875421533</string>
+  <string name="Banner_Ads51">ca-app-pub-2426289228107279/8431523167</string>
+  <string name="Banner_Ads52">ca-app-pub-2426289228107279/9381626841</string>
+  <string name="Banner_Ads53">ca-app-pub-2426289228107279/6755463500</string>
+  <string name="Banner_Ads54">ca-app-pub-2426289228107279/5250810142</string>
+  <string name="Banner_Ads55">ca-app-pub-2426289228107279/2212108485</string>
+
+
+
+</resources>

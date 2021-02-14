@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.facturation" android:installLocation="auto" android:versionCode="11" android:versionName="1.5">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+  <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+  <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM" />
+  <uses-permission android:name="android.permission.READ_SOCIAL_STREAM" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+  <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+  <uses-permission android:name="android.permission.BIND_PRINT_SERVICE" />
+  <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@drawable/noir" android:label="@string/app_name" android:roundIcon="@drawable/noir" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar">
+    <provider android:name="xamarin.essentials.fileProvider" android:authorities="com.companyname.facturation.fileProvider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/xamarin_essentials_fileprovider_file_paths" />
+    </provider>
+    <activity android:name="crc64bbe8c6b492b762fc.AjouteritemDevisuodate" android:configChanges="locale|orientation|screenSize" android:label="Article" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.AjouterItemsFactureUpdate" android:configChanges="locale|orientation|screenSize" android:label="Article" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Changemotdepasse" android:configChanges="locale|orientation|screenSize" android:label="Changer mot de passe" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ClientssDevis" android:configChanges="locale|orientation|screenSize" android:label="Clients" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Clientss" android:configChanges="locale|orientation|screenSize" android:label="Clients" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.CreationClient1" android:configChanges="locale|orientation|screenSize" android:label="Votre Informations" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.CreationClient2" android:configChanges="locale|orientation|screenSize" android:label="Informations Bancaire" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.CreationClient3" android:configChanges="locale|orientation|screenSize" android:label="Logo" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.CreationClient4" android:configChanges="locale|orientation|screenSize" android:label="Mot de passe" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.DetailDevisArticle" android:configChanges="locale|orientation|screenSize" android:label="Article" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.DetaildevisUpdate" android:configChanges="locale|orientation|screenSize" android:label="Article" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.DetailFacture" android:configChanges="locale|orientation|screenSize" android:label="ActivityDetail" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.DetailFactureUpdate" android:configChanges="locale|orientation|screenSize" android:icon="@drawable/noir" android:label="ActivityDetail" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Deviss" android:configChanges="locale|orientation|screenSize" android:label="Devis" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.DevisDetail" android:configChanges="locale|orientation|screenSize" android:label="Detail Devis" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.FactrueDetail" android:configChanges="locale|orientation|screenSize" android:label="Factrue Detail" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Facturee" android:configChanges="locale|orientation|screenSize" android:label="Facture" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Headernavbar" android:configChanges="locale|orientation|screenSize" android:label="Headernavbar" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Itemsapp" android:configChanges="locale|orientation|screenSize" android:label="Home" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Lancer" android:configChanges="locale|orientation|screenSize" android:icon="@drawable/noir" android:label="QuickFact" android:theme="@style/AppTheme.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="crc64bbe8c6b492b762fc.LayoutSegnature" android:configChanges="locale|orientation|screenSize" android:label="Signature" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.LayoutsignatureDevis" android:configChanges="locale|orientation|screenSize" android:label="Signature" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Listacture" android:configChanges="locale|orientation|screenSize" android:label="Liste Factures" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ListDevis" android:configChanges="locale|orientation|screenSize" android:label="Liste Devis" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ListDevisEncours" android:configChanges="locale|orientation|screenSize" android:label="Liste Devis" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ListDevisHome" android:configChanges="locale|orientation|screenSize" android:label="Liste Devis" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Listfacturenonpayer" android:configChanges="locale|orientation|screenSize" android:label="Liste Factures" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ListactureHome" android:configChanges="locale|orientation|screenSize" android:label="Liste Factures" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ListProduitsStandart" android:configChanges="locale|orientation|screenSize" android:label="Liste Produits/Services" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ListProduitsDevis" android:configChanges="locale|orientation|screenSize" android:label="Liste Produits/Services" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ListProduits" android:configChanges="locale|orientation|screenSize" android:label="Liste Produits/Services" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.MainActivity" android:configChanges="locale|orientation|screenSize" android:label="@string/app_name" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Oublier" android:configChanges="locale|orientation|screenSize" android:label="Oublier" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.PageHome" android:configChanges="locale|orientation|screenSize" android:icon="@drawable/noir" android:label="PageHome" android:theme="@style/AppTheme" />
+    <activity android:name="crc64bbe8c6b492b762fc.parametre" android:configChanges="locale|orientation|screenSize" android:label="parametre" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.PDFlayout" android:configChanges="locale|orientation|screenSize" android:label="PDF" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.PDFlayoutDevis" android:configChanges="locale|orientation|screenSize" android:label="PDF" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Produit" android:configChanges="locale|orientation|screenSize" android:label="Produit/Service" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.ProduitDevis" android:configChanges="locale|orientation|screenSize" android:label="Produit/Service" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Signaturetransfor" android:configChanges="locale|orientation|screenSize" android:label="Signature" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.UpdateAdminInfo" android:configChanges="locale|orientation|screenSize" android:label="UpdateAdminInfo" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.UpdateDevis" android:configChanges="locale|orientation|screenSize" android:label="UpdateDevis" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Updatedevise" android:configChanges="locale|orientation|screenSize" android:label="Updatedevise" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Updatedevisupdateinfo" android:configChanges="locale|orientation|screenSize" android:label="Devis Detail" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Updatefacture" android:configChanges="locale|orientation|screenSize" android:label="Updatefacture" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.UpdateFactureupdateinfo" android:configChanges="locale|orientation|screenSize" android:label="modifier Info facture" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.UpdateInfoBanque" android:configChanges="locale|orientation|screenSize" android:label="UpdateInfoBanque" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.Updatepassword" android:configChanges="locale|orientation|screenSize" android:label="Modifier mot de passe" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64342ce3c13c74d595.ListClientDevisupdate" android:configChanges="locale|orientation|screenSize" android:label="Liste CLients" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64342ce3c13c74d595.ListClientDevis" android:configChanges="locale|orientation|screenSize" android:label="Liste CLients" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64342ce3c13c74d595.ListCLientsUpdate" android:configChanges="locale|orientation|screenSize" android:label="Liste CLients" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64342ce3c13c74d595.ListCLients" android:configChanges="locale|orientation|screenSize" android:label="Liste CLients" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64342ce3c13c74d595.ListCLientsStandart" android:configChanges="locale|orientation|screenSize" android:label="Liste CLients" android:theme="@style/AppTheme.NoActionBar" />
+    <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.companyname.facturation.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
+    <activity android:name="com.karumi.dexter.DexterActivity" android:theme="@style/Dexter.Internal.Theme.Transparent" />
+    <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+    <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />
+    <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+</manifest>

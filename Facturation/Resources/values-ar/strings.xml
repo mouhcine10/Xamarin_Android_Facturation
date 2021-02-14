@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-->Modifer update mot de passee<-->
+
+<string name="Mod">غيير كلمة المرور:</string>
+<string name="motdepasseactuelle">كلمة المرور الحالية:</string>
+<string name="Motdepasse">كلمة المرور:</string>
+<string name="ConfermationMotdepasse">تأكيد كلمة المرور</string>
+<!-->Modifer Devise:<-->
+
+<string name="InformationBancaire">معلومات البنك:</string>
+<string name="Nomdebanque">اسم البنك:</string>
+<string name="BIC">BIC :</string>
+<string name="IBAN">IBAN:</string>
+<!-->Modifer Devise:<-->
+
+<string name="ModiferDevise">تعديل العملة:</string>
+<string name="Deviseactuel">العملة الحالية :</string>
+<string name="ChoisivotreDevise">اختر عملتك </string>
+<string name="Valider">تحقق من صحة</string>
+<!-->  lange home  <-->
+<string name="Email">بريد إلكتروني</string>
+<string name="mdp">كلمة المرور</string>
+<string name="mdpO">نسيت كلمة المرور</string>
+<string name="btnconncter">اتصال</string>
+<string name="Creercmpt">إنشاء حسابك</string>
+
+<!-->  Clinetpage <-->
+
+<string name="Nom">الاسم: </string>
+<string name="Telephone">الهاتف:</string>
+<string name="EmailClinet">البريد الإلكتروني:</string>
+<string name="Adresse">العنوان:</string>
+<string name="CodePostal">الرمز البريدي:</string>
+<string name="Pays">الدولة:</string>
+<string name="Ville">المدينة:</string>
+<string name="Enregistrer">حفظ</string>
+
+<!-->  Creation client1 <-->
+<string name="Nomcl1">الاسم:</string>
+<string name="Emailcl1">البريد الإلكتروني:</string>
+<string name="adressecl1">العنوان:</string>
+<string name="Telephonecl1"> الهاتف:</string>
+<string name="CodePostalcl1">الرمز البريدي :</string>
+<string name="Villecl1">المدينة:</string>
+<string name="Payscl1">البلد:</string>
+<string name="btncl1suivant">التالي</string>
+
+<!-->  Creation client2 <-->
+<string name="Nomdebanquecl2">اسم البنك:</string>
+<string name="BICcl2">BIC:</string>
+<string name="IBANcl2">IBAN:</string>
+<string name="btncl2suivant">التالي</string>
+<string name="btncl2precedant">السابق</string>
+
+
+<!-->  Creation client3 <-->
+<string name="getlogocl3">تنزيل</string>
+<string name="btncl3suivant">التالي</string>
+<string name="btncl3precedant">السابق</string>
+
+
+<!-->  Creation client4 <-->
+<string name="txtMotdepassecl4">كلمة المرور :</string>
+<string name="mdpcl4">كلمة المرور:</string>
+<string name="cmdpcl4">تأكيد كلمة المرورر:</string>
+<string name="btnpreccl4">السابق</string>
+<string name="btnokcl4">موافق</string>
+
+
+<!-->  DetailFacture <-->
+
+<string name="selectarticlefact">عنصر أو خدمة التحديد</string>
+<string name="Typeproduitfact">نوع المنتج:</string>
+<string name="Articlefact">مقال :</string>
+<string name="Prixufact">سعر الوحدة :</string>
+<string name="Qtefact">الكمية :</string>
+<string name="Remisefact">Remise :</string>
+<string name="TVAfact">Tva :</string>
+<string name="Enregistrerfact"> حفظ</string>
+
+
+
+<!-->  Liste clients <-->
+
+
+<!-->  Liste Factures <-->
+<!-->   Factures <-->
+<string name="phraseFacture">انقر لتعديل المعلومات</string>
+<string name="IDFacture">رقم الفاتورة:</string>
+<string name="EntrepriseFacture">الشركة</string>
+<string name="DatecreationFacture">تاريخ الإنشاء</string>
+<string name="DatedeEchenceFacture"> تاريخ الاستحقاق</string>
+<string name="ChoisirvotreclientFacture"> اختر عميلك</string>
+<string name="AjouterArticleServiceFacture"> إضافة عنصر / خدمة</string>
+<string name="SousTotalFacture"> الإجمالي الفرعي:</string>
+<string name="RemiseFacture"> Remise :</string>
+<string name="TaxeFacture"> TVA:</string>
+<string name="TotalFacture"> الإجمالي:</string>
+<string name="ModedepaiementFacture">  طريقة الدفع :</string>
+<string name="NoteFacture">ملاحظة: </string>
+<string name="SignatureFacture"> التوقيع :</string>
+<!-->   FactDetail <-->
+<string name="IDFactureDetail">رقم الفاتورة:</string>
+<string name="EntrepriseDetailFacture"> الشركة :</string>
+<string name="DatefacturationDetailFacture"> تاريخ إصدار الفواتير :</string>
+<string name="DateValiditeDetailFacture">تاريخ الاستحقاق :</string>
+<!-->   Home <-->
+<string name="DevisEncours"> التقدير الحالي</string>
+<string name="DevisValide"> اقتباس تم التحقق منه</string>
+<string name="FactureNonpayee">الفاتورة غير مدفوعة</string>
+<string name="FacturePayee">فاتورة مدفوعة</string>
+<string name="Balance">الرصيد</string>
+<string name="TotaldesFacturesCree"> إجمالي الفواتير المُنشأة</string>
+<string name="TotalNonPayee"> الإجمالي غير المدفوع</string>
+<string name="TotalPayee"> إجمالي المدفوعات</string>
+<string name="TotaldesdevisGree"> تم إنشاء إجمالي عروض الأسعار</string>
+<string name="TotalDevisEncours">  إجمالي التقدير المعلق</string>
+<string name="TotalDevisValide"> إجمالي التقدير الذي تم التحقق منه</string>
+
+
+
+
+
+<!-->   Factures update <-->
+
+<string name="phraseFactureUpdate">انقر لتعديل المعلومات</string>
+<string name="IDFactureUpdate">رقم الفاتورة:</string>
+<string name="EntrepriseFactureUpdate">الشركة</string>
+<string name="DatecreationFactureUpdate">تاريخ الفواتير</string>
+<string name="DatedeEchenceFactureUpdate">تاريخ الاستحقاق</string>
+<string name="ChoisirvotreclientFactureUpdate"> اختر عميلك</string>
+<string name="AjouterArticleServiceFactureUpdate"> إضافة عنصر / خدمة</string>
+<string name="SousTotalFactureUpdate"> الإجمالي الفرعي:</string>
+<string name="RemiseFactureUpdate"> Remise :</string>
+<string name="TaxeFactureUpdate"> TVA:</string>
+<string name="TotalFactureUpdate"> الإجمالي:</string>
+<string name="ModedepaiementFactureUpdate"> طريقة الدفع :</string>
+<string name="NoteFactureUpdate"> ملاحظة: </string>
+<string name="SignatureFactureUpdate">  التوقيع :</string>
+
+
+<!-->   Page Home  <-->
+
+
+
+<!-->   oublierinteface <-->
+<string name="Motdepasseoublie "> نسيت كلمة المرور </string>
+<string name="Emailo"> البريد الإلكتروني:</string>
+<string name="Envoyero"> إرسال:</string>
+<string name="Codevalidation"> رمز التحقق:</string>
+
+
+<!-->  signature <-->
+<!-->  Liste Devis <-->
+<!-->   Devis <-->
+<string name="phraseDevisUpdate">نقر لتعديل المعلومات</string>
+<string name="IDDevisUpdate">اقتباس N °:</string>
+<string name="EntrepriseDevisUpdate">الشركة</string>
+<string name="DatecreationDevisUpdate">تاريخ الإنشاء</string>
+<string name="DatedevalidationDevisUpdate">التحقق من صحة التاريخ</string>
+<string name="ChoisirvotreclientDevisUpdate"> اختر عميلك</string>
+<string name="AjouterArticleServiceDevisUpdate"> إضافة مقالة / خدمة</string>
+<string name="SousTotalDevisUpdate"> الإجمالي الفرعي:</string>
+<string name="RemiseDevisUpdate"> Remise :</string>
+<string name="TaxeDevisUpdate"> TVA:</string>
+<string name="TotalDevisUpdate"> الإجمالي:</string>
+<string name="ModedepaiementDevisUpdate">  طريقة الدفع :</string>
+<string name="NoteDevisUpdate">ملاحظة: </string>
+<string name="transfer"> تم التحويل إلى الفاتورة</string>
+
+<!-->  Detail Devis <-->
+<string name="IDDevisDetail">اقتباس N °:</string>
+<string name="EntrepriseDetailDevis"> الشركة:</string>
+<string name="DatecreationDetail"> تاريخ الإنشاء:</string>
+<string name="DateValiditeDetail"> صلاحية التاريخ :</string>
+
+<!-->  Param <-->
+<string name="ModifierClient"> تعديل العميل :</string>
+<string name="ChangerDevise"> تغيير العملة :</string>
+<string name="ChangerMotdepasse"> تغيير كلمة المرور :</string>
+<string name="ChangerDonnesBancaire"> تغيير الحساب المصرفي</string>
+
+
+<!-->  Devis update <-->
+<string name="phraseDevis">انقر لتعديل المعلومات</string>
+<string name="IDDevis">رقم الاقتباس:</string>
+<string name="EntrepriseDevis">الشركة</string>
+<string name="DatecreationDevis">تاريخ الإنشاء</string>
+<string name="DatedevalidationDevis">التحقق من صحة التاريخ</string>
+<string name="ChoisirvotreclientDevis"> اختر عميلك</string>
+<string name="AjouterArticleServiceDevis"> إضافة مقالة / خدمة</string>
+<string name="SousTotalDevis"> الإجمالي الفرعي:</string>
+<string name="RemiseDevis"> Remise :</string>
+<string name="TaxeDevis"> TVA:</string>
+<string name="TotalDevis"> الإجمالي:</string>
+<string name="ModedepaiementDevis">  طريقة الدفع :</string>
+<string name="NoteDevis">ملاحظة: </string>
+<string name="SignatureDevis">  التوقيع:</string>
+
+
+
+
+
+
+<!-->  Produit <-->
+<string name="TypeP"> النوع :</string>
+<string name="NomproduitP"> اسم المنتج :</string>
+<string name="PrixP"> السعر:</string>
+<string name="TVAP"> TVA:</string>
+<string name="EnregistrerP"> حفظ</string>
+
+<!--> tikitarticle  <-->
+<string name="Qtelist">الكمية</string>
+<string name="prixlist">السعر </string>
+
+<!--> tikitDevis  <-->
+<string name="DateEchence">تاريخ انتهاء الصلاحية</string>
+<!--> tikitProduit  <-->
+
+<string name="Typetikp">النوع</string>
+<string name="Nomtikp">الاسم</string>
+<string name="Prixtikp"> السعر</string>
+
+<!--> tikitFacture  <-->
+<string name="Datevalidation">التحقق من صحة التاريخ</string>
+
+
+
+  <string name="app_name">Facturation</string>
+  <string name="action_settings">Settings</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="speakers_tab_label">PDF</string>
+  <string name="sessions_tab_label">Facture</string>
+
+  <string name="ApplicationName">FingerPaint</string>
+
+  <string name="color_spinner_prompt">Color</string>
+
+  <string-array name="colors_array">
+    <item>Red</item>
+    <item>Green</item>
+    <item>Blue</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Yellow</item>
+    <item>Black</item>
+    <item>Gray</item>
+    <item>White</item>
+  </string-array>
+
+  <string name="width_spinner_prompt">Width</string>
+
+  <string-array name="widths_array">
+    <item>Thin</item>
+    <item>Thinish</item>
+    <item>Medium</item>
+    <item>Thickish</item>
+    <item>Thick</item>
+  </string-array>
+
+  <string name="clearText">Clear</string>
+  <string-array name="Devise">
+    <item>AED</item>
+    <item>AFN</item>
+    <item>ALL</item>
+    <item>AMD</item>
+    <item>AOA</item>
+    <item>ARS</item>
+    <item>AUD</item>
+    <item>AWG</item>
+    <item>AZN</item>
+    <item>BAM</item>
+    <item>BBD</item>
+    <item>BDT</item>
+    <item>BGN</item>
+    <item>BHD</item>
+    <item>BIF</item>
+    <item>BMD</item>
+    <item>BND</item>
+    <item>BOB</item>
+    <item>BRL</item>
+    <item>BSD</item>
+    <item>BTC</item>
+    <item>BTN</item>
+    <item>BWP</item>
+    <item>BYN</item>
+    <item>BZD</item>
+    <item>CAD</item>
+    <item>CDF</item>
+    <item>CHF</item>
+    <item>CLP</item>
+    <item>CNY</item>
+    <item>COP</item>
+    <item>CRC</item>
+    <item>CUP</item>
+    <item>CVE</item>
+    <item>CZK</item>
+    <item>DJF</item>
+    <item>DKK</item>
+    <item>DOP</item>
+    <item>DZD</item>
+    <item>EGP</item>
+    <item>ERN</item>
+    <item>ETB</item>
+    <item>ETH</item>
+    <item>EUR</item>
+    <item>FJD</item>
+    <item>FKP</item>
+    <item>GBP</item>
+    <item>GEL</item>
+    <item>GHS</item>
+    <item>GIP</item>
+    <item>GMD</item>
+    <item>GNF</item>
+    <item>GTQ</item>
+    <item>GYD</item>
+    <item>HKD</item>
+    <item>HNL</item>
+    <item>HRK</item>
+    <item>HTG</item>
+    <item>HUF</item>
+    <item>IDR</item>
+    <item>ILS</item>
+    <item>INR</item>
+    <item>IQD</item>
+    <item>IRR</item>
+    <item>ISK</item>
+    <item>JMD</item>
+    <item>JOD</item>
+    <item>JPY</item>
+    <item>KES</item>
+    <item>KGS</item>
+    <item>KHR</item>
+    <item>KMF</item>
+    <item>KPW</item>
+    <item>KRW</item>
+    <item>KWD</item>
+    <item>KYD</item>
+    <item>KZT</item>
+    <item>LAK</item>
+    <item>LBP</item>
+    <item>LKR</item>
+    <item>LRD</item>
+    <item>LSL</item>
+    <item>LTC</item>
+    <item>LYD</item>
+    <item>MAD</item>
+    <item>MDL</item>
+    <item>MGA</item>
+    <item>MKD</item>
+    <item>MMK</item>
+    <item>MNT</item>
+    <item>MOP</item>
+    <item>MUR</item>
+    <item>MVR</item>
+    <item>MWK</item>
+    <item>MXN</item>
+    <item>MYR</item>
+    <item>NAD</item>
+    <item>NGN</item>
+    <item>NIO</item>
+    <item>NOK</item>
+    <item>NPR</item>
+    <item>NZD</item>
+    <item>OMR</item>
+    <item>PAB</item>
+    <item>PEN</item>
+    <item>PGK</item>
+    <item>PHP</item>
+    <item>PKR</item>
+    <item>PLN</item>
+    <item>PYG</item>
+    <item>QAR</item>
+    <item>RON</item>
+    <item>RSD</item>
+    <item>RUB</item>
+    <item>RWF</item>
+    <item>SAR</item>
+    <item>SBD</item>
+    <item>SCR</item>
+    <item>SEK</item>
+    <item>SGD</item>
+    <item>SHP</item>
+    <item>SLL</item>
+    <item>SOS</item>
+    <item>SRD</item>
+    <item>SVC</item>
+    <item>SYP</item>
+    <item>SZL</item>
+    <item>THB</item>
+    <item>TND</item>
+    <item>TOP</item>
+    <item>TRY</item>
+    <item>TTD</item>
+    <item>TWD</item>
+    <item>TZS</item>
+    <item>UAH</item>
+    <item>UGX</item>
+    <item>USD</item>
+    <item>UYU</item>
+    <item>UZS</item>
+    <item>VND</item>
+    <item>VUV</item>
+    <item>WST</item>
+    <item>YER</item>
+    <item>ZAR</item>
+  </string-array>
+  <string-array name="Type">
+    <item>Pourcentage</item>
+    <item>Montant</item>
+  </string-array>
+
+  <string-array name="ModePaimenet">
+    <item>Chèque</item>
+    <item>virement bancaire</item>
+    <item>Espéce</item>
+  </string-array>
+
+  <string-array name="ClientType">
+
+    <item>Personne Moral</item>
+    <item>Auto-entrepreneur</item>
+
+
+  </string-array>
+
+  <string-array name="Produit">
+
+    <item>Produit</item>
+    <item>Service</item>
+
+
+  </string-array>
+
+  <string name="Banner_Ads1">ca-app-pub-2426289228107279/3421070760</string>
+  <string name="Banner_Ads2">
+    ca-app-pub-2426289228107279/8742498441
+  </string>
+  <string name="Banner_Ads3">ca-app-pub-2426289228107279/5713026330</string>
+  <string name="Banner_Ads4">ca-app-pub-2426289228107279/8147617983</string>
+  <string name="Banner_Ads5">ca-app-pub-2426289228107279/6208668597</string>
+  <string name="Banner_Ads6">ca-app-pub-2426289228107279/7984784698</string>
+  <string name="Banner_Ads7">ca-app-pub-2426289228107279/5358621351</string>
+  <string name="Banner_Ads8">ca-app-pub-2426289228107279/6480131336</string>
+  <string name="Banner_Ads9">ca-app-pub-2426289228107279/2269423585</string>
+  <string name="Banner_Ads10">ca-app-pub-2426289228107279/3662396304</string>
+  <string name="Banner_Ads11">ca-app-pub-2426289228107279/5513715784</string>
+  <string name="Banner_Ads12">ca-app-pub-2426289228107279/4783906288</string>
+  <string name="Banner_Ads13">ca-app-pub-2426289228107279/9844661278</string>
+  <string name="Banner_Ads14">ca-app-pub-2426289228107279/4592334592</string>
+  <string name="Banner_Ads15">ca-app-pub-2426289228107279/9653089589</string>
+  <string name="Banner_Ads16">ca-app-pub-2426289228107279/2695324216</string>
+  <string name="Banner_Ads17">ca-app-pub-2426289228107279/9069160874</string>
+  <string name="Banner_Ads18">ca-app-pub-2426289228107279/5129915868</string>
+  <string name="Banner_Ads19">ca-app-pub-2426289228107279/2503752528</string>
+  <string name="Banner_Ads20">ca-app-pub-2426289228107279/4746772483</string>
+  <string name="Banner_Ads21">ca-app-pub-2426289228107279/3433690811</string>
+  <string name="Banner_Ads22">ca-app-pub-2426289228107279/9807527473</string>
+  <string name="Banner_Ads23">ca-app-pub-2426289228107279/5676710772</string>
+  <string name="Banner_Ads24">ca-app-pub-2426289228107279/5485139089</string>
+  <string name="Banner_Ads25">ca-app-pub-2426289228107279/9232812401</string>
+  <string name="Banner_Ads26">ca-app-pub-2426289228107279/5293567394</string>
+  <string name="Banner_Ads27"> ca-app-pub-2426289228107279/6415077375</string>
+  <string name="Banner_Ads28">ca-app-pub-2426289228107279/1162750693</string>
+  <string name="Banner_Ads29">ca-app-pub-2426289228107279/3405770654</string>
+  <string name="Banner_Ads30">ca-app-pub-2426289228107279/8451688557</string>
+  <string name="Banner_Ads31">ca-app-pub-2426289228107279/8274953956</string>
+  <string name="Banner_Ads32">ca-app-pub-2426289228107279/3022627275</string>
+  <string name="Banner_Ads33">ca-app-pub-2426289228107279/8083382260</string>
+  <string name="Banner_Ads34">ca-app-pub-2426289228107279/2639483893</string>
+  <string name="Banner_Ads35">ca-app-pub-2426289228107279/3398688336</string>
+  <string name="Banner_Ads36">ca-app-pub-2426289228107279/4520198312</string>
+  <string name="Banner_Ads37">ca-app-pub-2426289228107279/8267871637</string>
+  <string name="Banner_Ads38">ca-app-pub-2426289228107279/6763218276</string>
+  <string name="Banner_Ads39">ca-app-pub-2426289228107279/5450136608</string>
+  <string name="Banner_Ads40">ca-app-pub-2426289228107279/9197809929</string>
+  <string name="Banner_Ads41">ca-app-pub-2426289228107279/6571646583</string>
+  <string name="Banner_Ads42">ca-app-pub-2426289228107279/7138606887</string>
+  <string name="Banner_Ads43">ca-app-pub-2426289228107279/1319319906</string>
+  <string name="Banner_Ads44">ca-app-pub-2426289228107279/4200634116</string>
+  <string name="Banner_Ads45">ca-app-pub-2426289228107279/6993484267</string>
+  <string name="Banner_Ads46">ca-app-pub-2426289228107279/4512443544</string>
+  <string name="Banner_Ads47">ca-app-pub-2426289228107279/7009796137</string>
+  <string name="Banner_Ads48">ca-app-pub-2426289228107279/8814666549</string>
+  <string name="Banner_Ads49">ca-app-pub-2426289228107279/7501584878</string>
+  <string name="Banner_Ads50">ca-app-pub-2426289228107279/4875421533</string>
+  <string name="Banner_Ads51">ca-app-pub-2426289228107279/8431523167</string>
+  <string name="Banner_Ads52">ca-app-pub-2426289228107279/9381626841</string>
+  <string name="Banner_Ads53">ca-app-pub-2426289228107279/6755463500</string>
+  <string name="Banner_Ads54">ca-app-pub-2426289228107279/5250810142</string>
+  <string name="Banner_Ads55">ca-app-pub-2426289228107279/2212108485</string>
+
+
+
+</resources>

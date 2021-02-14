@@ -1,0 +1,162 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+                />
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1"
+        android:background="@color/ic_launcher_background">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutGlobal"
+            android:layout_margin="5dp"
+            android:background="@color/ic_launcher_background">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1">
+                <com.google.android.gms.ads.AdView
+                    ads:adUnitId="@string/Banner_Ads9"
+                    ads:adSize="350x50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/adView1Detaifacture" />
+            </LinearLayout>
+
+
+            <Button
+                android:text="Selection d'Article ou service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonListArticle"
+                android:background="@drawable/btncolor"
+                android:textColor="@color/colortexttext" />
+
+            <TextView
+                android:text="Type Produit :"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:layout_margin="5dp"
+                android:textColor="@color/colortexttext" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.Widget.AppCompat.Spinner"
+                android:id="@+id/spinnerTypeRemise"
+                android:layout_margin="5dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/textInputLayoutArticle"
+                android:layout_margin="5dp">
+                <android.support.design.widget.TextInputEditText
+                    android:textColor="@color/colortexttext"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Article :"
+                    android:id="@+id/textInputEditTextArticle" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/textInputLayoutPrixU"
+                android:layout_margin="5dp">
+                <EditText
+                    android:textColor="@color/colortexttext"
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Prix Unitaire :"
+                    android:id="@+id/editTextPrix" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/textInputLayoutQte"
+                android:layout_margin="5dp">
+                <EditText
+                    android:textColor="@color/colortexttext"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Quantité :"
+                    android:id="@+id/editTextQte" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textInputLayouttaux">
+                <EditText
+                    android:textColor="@color/colortexttext"
+                    android:hint="Taux :"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/editTextRemisetaux"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textInputLayouttva">
+                <EditText
+                    android:textColor="@color/colortexttext"
+                    android:hint="TVA"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextTvaFact" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:text="Enregistrer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btncolor"
+                android:id="@+id/buttonEnregistrerArticle"
+                android:textColor="@color/colortexttext" 
+             />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="0">
+        <com.google.android.gms.ads.AdView
+            ads:adUnitId="@string/Banner_Ads10"
+            ads:adSize="350x50"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/adView2Detaifacture" />
+    </LinearLayout>
+</LinearLayout>

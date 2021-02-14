@@ -1,0 +1,15 @@
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\bin\iPhoneSimulator\Debug\facture.exe
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\bin\iPhoneSimulator\Debug\facture.pdb
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\facture.csprojAssemblyReference.cache
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\facture.csproj.CoreCompileInputs.cache
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\facture.csproj.CopyComplete
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\facture.exe
+C:\Users\mouhc\Desktop\Facturation\Facturation -V1\facture\obj\iPhoneSimulator\Debug\facture.pdb
