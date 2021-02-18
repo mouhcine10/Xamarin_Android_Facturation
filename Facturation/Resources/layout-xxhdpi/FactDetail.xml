@@ -34,8 +34,7 @@
                 android:id="@+id/textInputEditTextreffac" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:textColor="@color/colortexttext"
+             android:textColor="@color/colortexttext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textInputLayout2">
@@ -47,7 +46,6 @@
                 android:id="@+id/textInputEditTextNomENtrepriseDetailFacture" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textInputLayout3">
@@ -60,7 +58,6 @@
                 android:id="@+id/editTextCreationDate" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:textColor="@color/colortexttext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,12 +71,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editTextpaiementDatefacture" />
         </android.support.design.widget.TextInputLayout>
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textInputLayout5" />
+        
         <Button
-            android:text="Valider"
+            android:text="@string/Valider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonvaliderDetail"

@@ -89,11 +89,6 @@ namespace Facturation
 
                 signatureView.GetImageStreamAsync(SignatureImageFormat.Png);
 
-
-
-
-
-
                 signature.Click += delegate
                  {
                      Bitmap image = signatureView.GetImage();

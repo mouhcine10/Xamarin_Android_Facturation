@@ -63,23 +63,21 @@
                 android:id="@+id/spinnerTypeRemise"
                 android:layout_margin="5dp" />
 
-            <com.google.android.material.textfield.TextInputLayout
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:id="@+id/textInputLayoutArticle"
                 android:layout_margin="5dp">
-                <com.google.android.material.textfield.TextInputEditText
+                <android.support.design.widget.TextInputEditText
                     android:textColor="@color/colortexttext"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:hint="@string/Articlefact"
                     android:id="@+id/textInputEditTextArticle" />
-            </com.google.android.material.textfield.TextInputLayout>
-            <com.google.android.material.textfield.TextInputLayout
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:id="@+id/textInputLayoutPrixU"
                 android:layout_margin="5dp">
                 <EditText
@@ -89,11 +87,10 @@
                     android:layout_height="50dp"
                     android:hint="@string/Prixufact"
                     android:id="@+id/editTextPrix" />
-            </com.google.android.material.textfield.TextInputLayout>
-            <com.google.android.material.textfield.TextInputLayout
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:id="@+id/textInputLayoutQte"
                 android:layout_margin="5dp">
                 <EditText
@@ -103,11 +100,10 @@
                     android:layout_height="55dp"
                     android:hint="@string/Qtefact"
                     android:id="@+id/editTextQte" />
-            </com.google.android.material.textfield.TextInputLayout>
+            </android.support.design.widget.TextInputLayout>
 
 
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textInputLayouttaux">
@@ -118,9 +114,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:id="@+id/editTextRemisetaux"/>
-            </com.google.android.material.textfield.TextInputLayout>
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textInputLayouttva">
@@ -131,7 +126,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextTvaFact" />
-            </com.google.android.material.textfield.TextInputLayout>
+            </android.support.design.widget.TextInputLayout>
             <Button
                 android:text="@string/Enregistrerfact"
                 android:layout_width="match_parent"

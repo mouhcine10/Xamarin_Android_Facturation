@@ -18,62 +18,58 @@
         android:id="@+id/linearLayoutGLobaldetailref"
         android:background="@color/colorPrimary"
         android:layout_weight="1">
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
             android:id="@+id/textInputLayoutREfDetaildevis"
             android:layout_margin="10dp">
-            <com.google.android.material.textfield.TextInputEditText
+            <android.support.design.widget.TextInputEditText
                 android:hint="@string/IDDevisDetail"
                 android:textColor="@color/colortexttext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textInputEditTextREfDetaildevis" />
-        </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
             android:id="@+id/textInputLayoutEntrepriseDevisdetail"
             android:layout_margin="10dp">
-            <com.google.android.material.textfield.TextInputEditText
+            <android.support.design.widget.TextInputEditText
                 android:hint="@string/EntrepriseDetailDevis"
                 android:textColor="@color/colortexttext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textInputEditTextEntrepriseDevisdetail" />
-        </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
             android:id="@+id/textInputLayoutDatecrationDevis"
             android:layout_margin="10dp">
-            <com.google.android.material.textfield.TextInputEditText
+            <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colortexttext"
                 android:hint="@string/DatecreationDetail"
                 android:id="@+id/textInputEditTextDatecrationDevis" />
-        </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
             android:id="@+id/textInputLayoutdateEchance"
             android:layout_margin="10dp">
-            <com.google.android.material.textfield.TextInputEditText
+            <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                android:textColor="@color/colortexttext"
                 android:hint="@string/DateValiditeDetail"
                 android:id="@+id/textInputEditTextdateEchanceDevis" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
         <Button
             android:text="Valider"
             android:layout_width="match_parent"

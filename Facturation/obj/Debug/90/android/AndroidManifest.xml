@@ -36,6 +36,7 @@
     <activity android:name="crc64bbe8c6b492b762fc.DetaildevisUpdate" android:configChanges="locale|orientation|screenSize" android:label="Article" android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name="crc64bbe8c6b492b762fc.DetailFacture" android:configChanges="locale|orientation|screenSize" android:label="ActivityDetail" android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name="crc64bbe8c6b492b762fc.DetailFactureUpdate" android:configChanges="locale|orientation|screenSize" android:icon="@drawable/noir" android:label="ActivityDetail" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="crc64bbe8c6b492b762fc.DeviseTaux" android:configChanges="locale|orientation|screenSize" android:label="DeviseTaux" android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name="crc64bbe8c6b492b762fc.Deviss" android:configChanges="locale|orientation|screenSize" android:label="Devis" android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name="crc64bbe8c6b492b762fc.DevisDetail" android:configChanges="locale|orientation|screenSize" android:label="Detail Devis" android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name="crc64bbe8c6b492b762fc.FactrueDetail" android:configChanges="locale|orientation|screenSize" android:label="Factrue Detail" android:theme="@style/AppTheme.NoActionBar" />

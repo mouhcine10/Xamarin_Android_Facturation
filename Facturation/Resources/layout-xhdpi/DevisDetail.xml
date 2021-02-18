@@ -19,7 +19,6 @@
         android:background="@color/colorPrimary"
         android:layout_weight="1">
         <android.support.design.widget.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
@@ -33,7 +32,6 @@
                 android:id="@+id/textInputEditTextREfDetaildevis" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
@@ -47,7 +45,6 @@
                 android:id="@+id/textInputEditTextEntrepriseDevisdetail" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
@@ -61,7 +58,6 @@
                 android:id="@+id/textInputEditTextDatecrationDevis" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colortexttext"
@@ -75,7 +71,7 @@
                 android:id="@+id/textInputEditTextdateEchanceDevis" />
         </android.support.design.widget.TextInputLayout>
         <Button
-            android:text="Valider"
+            android:text="@string/Valider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonValiderDevis"

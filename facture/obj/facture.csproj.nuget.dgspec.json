@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\facture\\facture.csproj": {}
+    "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\facture\\facture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\facture\\facture.csproj": {
+    "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\facture\\facture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\facture\\facture.csproj",
+        "projectUniqueName": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\facture\\facture.csproj",
         "projectName": "facture",
-        "projectPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\facture\\facture.csproj",
+        "projectPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\facture\\facture.csproj",
         "packagesPath": "C:\\Users\\mouhc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\facture\\obj\\",
+        "outputPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\facture\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

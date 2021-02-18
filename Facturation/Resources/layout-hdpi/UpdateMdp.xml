@@ -49,7 +49,6 @@
                     android:textColor="@android:color/background_light"
                     android:layout_margin="10dp" />
                 <android.support.design.widget.TextInputLayout
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textInputLayout3"
@@ -63,7 +62,6 @@
                 </android.support.design.widget.TextInputLayout>
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:textColor="@android:color/background_light"
                     android:layout_height="wrap_content"
                     android:id="@+id/textInputLayout1"
@@ -79,7 +77,6 @@
                 <android.support.design.widget.TextInputLayout
                     android:textColor="@android:color/background_light"
                     android:layout_width="match_parent"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_height="wrap_content"
                     android:id="@+id/textInputLayout2"
                     android:layout_margin="10dp">

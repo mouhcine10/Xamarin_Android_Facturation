@@ -3,19 +3,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.google.android.material.textfield.TextInputLayout
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colortexttext"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:id="@+id/textInputLayout1"
         android:layout_margin="5dp">
-        <com.google.android.material.textfield.TextInputEditText
+        <android.support.design.widget.TextInputEditText
             android:textColor="@color/colortexttext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date Echence: "
             android:id="@+id/textdateechacebox" />
-    </com.google.android.material.textfield.TextInputLayout>
+    </android.support.design.widget.TextInputLayout>
 
 </LinearLayout>

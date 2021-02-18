@@ -96,6 +96,7 @@
     <Compile Include="DetailDevisUpdate.cs" />
     <Compile Include="DetailFacture.cs" />
     <Compile Include="DetailFactureUpdate.cs" />
+    <Compile Include="DeviseTaux.cs" />
     <Compile Include="Deviss.cs" />
     <Compile Include="DevisDetail.cs" />
     <Compile Include="FactrueDetail.cs" />
@@ -2212,6 +2213,36 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values-ru\styles.xml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\LayoutDevisTaux.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout-hdpi\LayoutDevisTaux.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout-xhdpi\LayoutDevisTaux.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout-mdpi\LayoutDevisTaux.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout-xxhdpi\LayoutDevisTaux.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout-xxxhdpi\LayoutDevisTaux.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

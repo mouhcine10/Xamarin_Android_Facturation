@@ -34,9 +34,9 @@ androidx.drawerlayout.widget.DrawerLayout;obj\Debug\90\res\layout-xxxhdpi\listcl
 androidx.drawerlayout.widget.DrawerLayout;obj\Debug\90\res\layout-xxxhdpi\listdevise.xml
 androidx.drawerlayout.widget.DrawerLayout;obj\Debug\90\res\layout-xxxhdpi\listfacture.xml
 androidx.drawerlayout.widget.DrawerLayout;obj\Debug\90\res\layout-xxxhdpi\listproduits.xml
-attr;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
-attr;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\values\attrs.xml
-attr;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\49\jl\res\values\values.xml
+attr;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
+attr;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\values\attrs.xml
+attr;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\49\jl\res\values\values.xml
 Button;obj\Debug\90\res\layout\clients.xml
 Button;obj\Debug\90\res\layout\creationclient1.xml
 Button;obj\Debug\90\res\layout\creationclient2.xml
@@ -151,8 +151,8 @@ Button;obj\Debug\90\res\layout-xxxhdpi\updatedevise.xml
 Button;obj\Debug\90\res\layout-xxxhdpi\updateinfoadmin.xml
 Button;obj\Debug\90\res\layout-xxxhdpi\updateinfobanque.xml
 Button;obj\Debug\90\res\layout-xxxhdpi\updatemdp.xml
-cache-path;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-color;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
+cache-path;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
 color;obj\Debug\90\res\values-ar\colors.xml
@@ -424,7 +424,6 @@ com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-
 com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\factdetail.xml
 com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\oublier.xml
 com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\pagehome.xml
-com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\produits.xml
 com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\tikitboxalert.xml
 com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\updateinfoadmin.xml
 com.google.android.material.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\updateinfobanque.xml
@@ -599,6 +598,8 @@ com.google.android.material.textfield.TextInputLayout;obj\Debug\90\res\layout-xx
 com.google.android.material.textfield.TextInputLayout;obj\Debug\90\res\layout-xxxhdpi\updateinfoadmin.xml
 com.google.android.material.textfield.TextInputLayout;obj\Debug\90\res\layout-xxxhdpi\updateinfobanque.xml
 com.google.android.material.textfield.TextInputLayout;obj\Debug\90\res\layout-xxxhdpi\updatemdp.xml
+com.google.android.material.widget.textfield.TextInputEditText;obj\Debug\90\res\layout-hdpi\produits.xml
+com.google.android.material.widgetTextInputEditText;obj\Debug\90\res\layout\updatemdp.xml
 com.pdfview.PDFView;obj\Debug\90\res\layout\lyoutpdf.xml
 com.pdfview.PDFView;obj\Debug\90\res\layout-hdpi\lyoutpdf.xml
 com.pdfview.PDFView;obj\Debug\90\res\layout-mdpi\lyoutpdf.xml
@@ -613,10 +614,17 @@ corners;obj\Debug\90\res\drawable\s.xml
 corners;obj\Debug\90\res\drawable\sa.xml
 corners;obj\Debug\90\res\drawable\solepayer.xml
 corners;obj\Debug\90\res\drawable\style.xml
-declare-styleable;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
-declare-styleable;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\values\attrs.xml
-declare-styleable;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\49\jl\res\values\values.xml
-dimen;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
+crc64a4453dc4d6b942b4.SignaturePadCanvasView;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
+crc64a4453dc4d6b942b4.SignaturePadView;obj\Debug\90\res\layout\layoutsignature.xml
+crc64a4453dc4d6b942b4.SignaturePadView;obj\Debug\90\res\layout-hdpi\layoutsignature.xml
+crc64a4453dc4d6b942b4.SignaturePadView;obj\Debug\90\res\layout-mdpi\layoutsignature.xml
+crc64a4453dc4d6b942b4.SignaturePadView;obj\Debug\90\res\layout-xhdpi\layoutsignature.xml
+crc64a4453dc4d6b942b4.SignaturePadView;obj\Debug\90\res\layout-xxhdpi\layoutsignature.xml
+crc64a4453dc4d6b942b4.SignaturePadView;obj\Debug\90\res\layout-xxxhdpi\layoutsignature.xml
+declare-styleable;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
+declare-styleable;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\values\attrs.xml
+declare-styleable;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\49\jl\res\values\values.xml
+dimen;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
 dimen;obj\Debug\90\res\values\dimens.xml
 dimen;obj\Debug\90\res\values-ar\dimens.xml
 dimen;obj\Debug\90\res\values-de\dimens.xml
@@ -705,9 +713,9 @@ EditText;obj\Debug\90\res\layout-xxxhdpi\updatedevis.xml
 EditText;obj\Debug\90\res\layout-xxxhdpi\updatefacture.xml
 EditText;obj\Debug\90\res\layout-xxxhdpi\updateinfoadmin.xml
 EditText;obj\Debug\90\res\layout-xxxhdpi\updatemdp.xml
-enum;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
-external-cache-path;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+enum;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
+external-cache-path;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 gradient;obj\Debug\90\res\drawable\btncolor.xml
 gradient;obj\Debug\90\res\drawable\btnetat.xml
 gradient;obj\Debug\90\res\drawable\btnetatretard.xml
@@ -717,7 +725,7 @@ gradient;obj\Debug\90\res\drawable\sa.xml
 gradient;obj\Debug\90\res\drawable\solepayer.xml
 gradient;obj\Debug\90\res\drawable\style.xml
 group;obj\Debug\90\res\menu\activity_main_drawer.xml
-ImageView;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
+ImageView;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
 ImageView;obj\Debug\90\res\layout\creationclient3.xml
 ImageView;obj\Debug\90\res\layout\devis.xml
 ImageView;obj\Debug\90\res\layout\fact.xml
@@ -922,7 +930,7 @@ include;obj\Debug\90\res\layout-xxxhdpi\updatefacture.xml
 include;obj\Debug\90\res\layout-xxxhdpi\updateinfoadmin.xml
 include;obj\Debug\90\res\layout-xxxhdpi\updateinfobanque.xml
 include;obj\Debug\90\res\layout-xxxhdpi\updatemdp.xml
-item;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
+item;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
 item;obj\Debug\90\res\menu\activity_main_drawer.xml
 item;obj\Debug\90\res\menu\barmenu.xml
 item;obj\Debug\90\res\menu\menu_main.xml
@@ -969,6 +977,7 @@ LinearLayout;obj\Debug\90\res\layout\factdetail.xml
 LinearLayout;obj\Debug\90\res\layout\flouadbuttonajouter.xml
 LinearLayout;obj\Debug\90\res\layout\home.xml
 LinearLayout;obj\Debug\90\res\layout\lancer.xml
+LinearLayout;obj\Debug\90\res\layout\layoutdevistaux.xml
 LinearLayout;obj\Debug\90\res\layout\layoutsignature.xml
 LinearLayout;obj\Debug\90\res\layout\listclient.xml
 LinearLayout;obj\Debug\90\res\layout\listdevise.xml
@@ -1009,6 +1018,7 @@ LinearLayout;obj\Debug\90\res\layout-hdpi\factdetail.xml
 LinearLayout;obj\Debug\90\res\layout-hdpi\flouadbuttonajouter.xml
 LinearLayout;obj\Debug\90\res\layout-hdpi\home.xml
 LinearLayout;obj\Debug\90\res\layout-hdpi\lancer.xml
+LinearLayout;obj\Debug\90\res\layout-hdpi\layoutdevistaux.xml
 LinearLayout;obj\Debug\90\res\layout-hdpi\layoutsignature.xml
 LinearLayout;obj\Debug\90\res\layout-hdpi\listclient.xml
 LinearLayout;obj\Debug\90\res\layout-hdpi\listdevise.xml
@@ -1049,6 +1059,7 @@ LinearLayout;obj\Debug\90\res\layout-mdpi\factdetail.xml
 LinearLayout;obj\Debug\90\res\layout-mdpi\flouadbuttonajouter.xml
 LinearLayout;obj\Debug\90\res\layout-mdpi\home.xml
 LinearLayout;obj\Debug\90\res\layout-mdpi\lancer.xml
+LinearLayout;obj\Debug\90\res\layout-mdpi\layoutdevistaux.xml
 LinearLayout;obj\Debug\90\res\layout-mdpi\layoutsignature.xml
 LinearLayout;obj\Debug\90\res\layout-mdpi\listclient.xml
 LinearLayout;obj\Debug\90\res\layout-mdpi\listdevise.xml
@@ -1089,6 +1100,7 @@ LinearLayout;obj\Debug\90\res\layout-xhdpi\factdetail.xml
 LinearLayout;obj\Debug\90\res\layout-xhdpi\flouadbuttonajouter.xml
 LinearLayout;obj\Debug\90\res\layout-xhdpi\home.xml
 LinearLayout;obj\Debug\90\res\layout-xhdpi\lancer.xml
+LinearLayout;obj\Debug\90\res\layout-xhdpi\layoutdevistaux.xml
 LinearLayout;obj\Debug\90\res\layout-xhdpi\layoutsignature.xml
 LinearLayout;obj\Debug\90\res\layout-xhdpi\listclient.xml
 LinearLayout;obj\Debug\90\res\layout-xhdpi\listdevise.xml
@@ -1129,6 +1141,7 @@ LinearLayout;obj\Debug\90\res\layout-xxhdpi\factdetail.xml
 LinearLayout;obj\Debug\90\res\layout-xxhdpi\flouadbuttonajouter.xml
 LinearLayout;obj\Debug\90\res\layout-xxhdpi\home.xml
 LinearLayout;obj\Debug\90\res\layout-xxhdpi\lancer.xml
+LinearLayout;obj\Debug\90\res\layout-xxhdpi\layoutdevistaux.xml
 LinearLayout;obj\Debug\90\res\layout-xxhdpi\layoutsignature.xml
 LinearLayout;obj\Debug\90\res\layout-xxhdpi\listclient.xml
 LinearLayout;obj\Debug\90\res\layout-xxhdpi\listdevise.xml
@@ -1169,6 +1182,7 @@ LinearLayout;obj\Debug\90\res\layout-xxxhdpi\factdetail.xml
 LinearLayout;obj\Debug\90\res\layout-xxxhdpi\flouadbuttonajouter.xml
 LinearLayout;obj\Debug\90\res\layout-xxxhdpi\home.xml
 LinearLayout;obj\Debug\90\res\layout-xxxhdpi\lancer.xml
+LinearLayout;obj\Debug\90\res\layout-xxxhdpi\layoutdevistaux.xml
 LinearLayout;obj\Debug\90\res\layout-xxxhdpi\layoutsignature.xml
 LinearLayout;obj\Debug\90\res\layout-xxxhdpi\listclient.xml
 LinearLayout;obj\Debug\90\res\layout-xxxhdpi\listdevise.xml
@@ -1257,8 +1271,8 @@ menu;obj\Debug\90\res\menu\menupr.xml
 menu;obj\Debug\90\res\menu\menuupdate.xml
 menu;obj\Debug\90\res\menu\menuupdatedevis.xml
 menu;obj\Debug\90\res\menu\menuupdatefacture.xml
-merge;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
-paths;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+merge;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
+paths;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\90\res\layout\listclient.xml
 RelativeLayout;obj\Debug\90\res\layout\listdevise.xml
 RelativeLayout;obj\Debug\90\res\layout\listfacture.xml
@@ -1283,14 +1297,14 @@ RelativeLayout;obj\Debug\90\res\layout-xxxhdpi\listclient.xml
 RelativeLayout;obj\Debug\90\res\layout-xxxhdpi\listdevise.xml
 RelativeLayout;obj\Debug\90\res\layout-xxxhdpi\listfacture.xml
 RelativeLayout;obj\Debug\90\res\layout-xxxhdpi\listproduits.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\2\jl\res\values\strings.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\3\jl\res\values\strings.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\values\attrs.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\49\jl\res\values\values.xml
-resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\60\jl\res\values\strings.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\2\jl\res\values\strings.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\3\jl\res\values\strings.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\values\attrs.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\49\jl\res\values\values.xml
+resources;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\60\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\dimens.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
@@ -1437,7 +1451,7 @@ ScrollView;obj\Debug\90\res\layout-xxxhdpi\updatefacture.xml
 ScrollView;obj\Debug\90\res\layout-xxxhdpi\updateinfoadmin.xml
 ScrollView;obj\Debug\90\res\layout-xxxhdpi\updateinfobanque.xml
 ScrollView;obj\Debug\90\res\layout-xxxhdpi\updatemdp.xml
-shape;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\drawable\signature_pad_background.xml
+shape;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\drawable\signature_pad_background.xml
 shape;obj\Debug\90\res\drawable\btncolor.xml
 shape;obj\Debug\90\res\drawable\btnetat.xml
 shape;obj\Debug\90\res\drawable\btnetatretard.xml
@@ -1446,7 +1460,7 @@ shape;obj\Debug\90\res\drawable\s.xml
 shape;obj\Debug\90\res\drawable\sa.xml
 shape;obj\Debug\90\res\drawable\solepayer.xml
 shape;obj\Debug\90\res\drawable\style.xml
-solid;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\drawable\signature_pad_background.xml
+solid;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\drawable\signature_pad_background.xml
 Spinner;obj\Debug\90\res\layout\clients.xml
 Spinner;obj\Debug\90\res\layout\creationclient2.xml
 Spinner;obj\Debug\90\res\layout\detailfacture.xml
@@ -1501,12 +1515,12 @@ Spinner;obj\Debug\90\res\layout-xxxhdpi\produits.xml
 Spinner;obj\Debug\90\res\layout-xxxhdpi\updatedevis.xml
 Spinner;obj\Debug\90\res\layout-xxxhdpi\updatedevise.xml
 Spinner;obj\Debug\90\res\layout-xxxhdpi\updatefacture.xml
-string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
-string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
-string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\2\jl\res\values\strings.xml
-string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\3\jl\res\values\strings.xml
-string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
-string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\60\jl\res\values\strings.xml
+string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
+string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\1\jl\res\values\values.xml
+string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\2\jl\res\values\strings.xml
+string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\3\jl\res\values\strings.xml
+string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\values\signature_pad_defaults.xml
+string;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\60\jl\res\values\strings.xml
 string;obj\Debug\90\res\values\strings.xml
 string;obj\Debug\90\res\values-ar\strings.xml
 string;obj\Debug\90\res\values-de\strings.xml
@@ -1527,7 +1541,7 @@ string-array;obj\Debug\90\res\values-it\strings.xml
 string-array;obj\Debug\90\res\values-pt\strings.xml
 string-array;obj\Debug\90\res\values-ru\strings.xml
 string-array;obj\Debug\90\res\values-zh\strings.xml
-style;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
+style;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\0\jl\res\values\values.xml
 style;obj\Debug\90\res\values\styles.xml
 style;obj\Debug\90\res\values-ar\styles.xml
 style;obj\Debug\90\res\values-de\styles.xml
@@ -1538,7 +1552,7 @@ style;obj\Debug\90\res\values-it\styles.xml
 style;obj\Debug\90\res\values-pt\styles.xml
 style;obj\Debug\90\res\values-ru\styles.xml
 style;obj\Debug\90\res\values-zh\styles.xml
-TextView;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
+TextView;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
 TextView;obj\Debug\90\res\layout\creationclient1.xml
 TextView;obj\Debug\90\res\layout\creationclient2.xml
 TextView;obj\Debug\90\res\layout\creationclient3.xml
@@ -1677,8 +1691,8 @@ TextView;obj\Debug\90\res\layout-xxxhdpi\updatedevise.xml
 TextView;obj\Debug\90\res\layout-xxxhdpi\updatefacture.xml
 TextView;obj\Debug\90\res\layout-xxxhdpi\updateinfobanque.xml
 TextView;obj\Debug\90\res\layout-xxxhdpi\updatemdp.xml
-View;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
-Xamarin.Controls.SignaturePadCanvasView;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation -V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
+View;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
+Xamarin.Controls.SignaturePadCanvasView;C:\Users\mouhc\Desktop\Facturation-Multilange\Facturation-V2\Facturation\obj\Debug\90\lp\4\jl\res\layout\signature_pad_layout.xml
 Xamarin.Controls.SignaturePadView;obj\Debug\90\res\layout\layoutsignature.xml
 Xamarin.Controls.SignaturePadView;obj\Debug\90\res\layout-hdpi\layoutsignature.xml
 Xamarin.Controls.SignaturePadView;obj\Debug\90\res\layout-mdpi\layoutsignature.xml

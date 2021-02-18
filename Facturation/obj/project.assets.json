@@ -4251,11 +4251,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\Facturation\\Facturation.csproj",
+      "projectUniqueName": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\Facturation\\Facturation.csproj",
       "projectName": "Facturation",
-      "projectPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\Facturation\\Facturation.csproj",
+      "projectPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\Facturation\\Facturation.csproj",
       "packagesPath": "C:\\Users\\mouhc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation -V2\\Facturation\\obj\\",
+      "outputPath": "C:\\Users\\mouhc\\Desktop\\Facturation-Multilange\\Facturation-V2\\Facturation\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

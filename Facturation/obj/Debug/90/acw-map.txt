@@ -37,6 +37,9 @@ facturation.DetailFacture;crc64bbe8c6b492b762fc.DetailFacture
 Facturation.DetailFactureUpdate, Facturation;crc64bbe8c6b492b762fc.DetailFactureUpdate
 Facturation.DetailFactureUpdate;crc64bbe8c6b492b762fc.DetailFactureUpdate
 facturation.DetailFactureUpdate;crc64bbe8c6b492b762fc.DetailFactureUpdate
+Facturation.DeviseTaux, Facturation;crc64bbe8c6b492b762fc.DeviseTaux
+Facturation.DeviseTaux;crc64bbe8c6b492b762fc.DeviseTaux
+facturation.DeviseTaux;crc64bbe8c6b492b762fc.DeviseTaux
 Facturation.Deviss, Facturation;crc64bbe8c6b492b762fc.Deviss
 Facturation.Deviss;crc64bbe8c6b492b762fc.Deviss
 facturation.Deviss;crc64bbe8c6b492b762fc.Deviss

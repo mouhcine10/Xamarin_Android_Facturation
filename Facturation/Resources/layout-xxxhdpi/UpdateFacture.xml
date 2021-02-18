@@ -83,7 +83,7 @@
                             android:id="@+id/textViewRefefacture"
                             android:textColor="@color/colortexttext" />
                         <TextView
-                            android:text="@tring/EntrepriseFactureUpdate"
+                            android:text="@string/EntrepriseFactureUpdate"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -307,7 +307,7 @@
                 android:id="@+id/linearLayout15">
                 <TextView
                     android:layout_marginLeft="15dp"
-                    android:text="@tring/ModedepaiementFactureUpdate"
+                    android:text="@string/ModedepaiementFactureUpdate"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

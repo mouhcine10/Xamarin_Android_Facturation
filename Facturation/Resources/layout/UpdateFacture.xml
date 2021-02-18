@@ -83,7 +83,7 @@
                             android:id="@+id/textViewRefefacture"
                             android:textColor="@color/colortexttext" />
                         <TextView
-                            android:text="@tring/EntrepriseFactureUpdate"
+                            android:text="@string/EntrepriseFactureUpdate"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/textView16"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:textColor="@color/colortexttext" />
                         <TextView
                             android:text="20/05/20"
@@ -116,7 +116,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/textViewDatecreationFact"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:textColor="@color/colortexttext" />
                         <TextView
                             android:text="@string/DatedeEchenceFactureUpdate"
@@ -124,7 +124,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/textView17"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:textColor="@color/colortexttext" />
                         <TextView
                             android:text="20/06/20"
@@ -132,7 +132,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/textViewDatepaiementFact"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:textColor="@color/colortexttext" />
                     </LinearLayout>
                 </LinearLayout>
@@ -321,9 +321,8 @@
                 android:id="@+id/spinnerModepaiementUpdateFacture"
                 android:textDirection="ltr"
                 android:layout_margin="5dp"/>
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="match_parent"
+            <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:id="@+id/textInputLayoutnoteUpdatefact"
                 android:layout_margin="10dp"
@@ -335,7 +334,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/editTextOvservationUpdateFacture" />
-            </com.google.android.material.textfield.TextInputLayout>
+            </android.support.design.widget.TextInputLayout>
 
 
 

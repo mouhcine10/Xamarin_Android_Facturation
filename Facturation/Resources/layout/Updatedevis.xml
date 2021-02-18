@@ -106,7 +106,7 @@
                             android:textAppearance="?android:attr/textAppearanceSmall"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:id="@+id/textView14"
                             android:textColor="@color/colortexttext" />
                         <TextView
@@ -115,11 +115,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/DateCreationupdateDevis"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:textColor="@color/colortexttext" />
                         <TextView
                             android:text="@string/DatedevalidationDevisUpdate"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/DatevalideDevisUpdate"
-                            android:layout_marginLeft="110dp"
+                            android:layout_marginLeft="90dp"
                             android:textColor="@color/colortexttext" />
                     </LinearLayout>
                 </LinearLayout>
@@ -320,7 +320,7 @@
                 android:textDirection="ltr"
                 android:layout_margin="5dp"/>
             <android.support.design.widget.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:textColor="@color/colortexttext"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:id="@+id/textInputLayoutnoteDevis"

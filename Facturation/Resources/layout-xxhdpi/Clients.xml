@@ -30,7 +30,6 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:textColor="@color/colortexttext"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_height="wrap_content"
                 android:id="@+id/textInputLayoutNom"
                 android:layout_margin="5dp">
@@ -43,7 +42,6 @@
                     android:id="@+id/editTextNomsociete" />
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:textColor="@color/colortexttext"
                 android:layout_height="wrap_content"
@@ -60,7 +58,6 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:textColor="@color/colortexttext"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_height="wrap_content"
                 android:id="@+id/textInputLayouEMail"
                 android:layout_margin="5dp">
@@ -74,7 +71,6 @@
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colortexttext"
                 android:id="@+id/textInputLayout1"
@@ -90,7 +86,6 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_height="wrap_content"
                 android:id="@+id/textInputLayoutCodePostal"
                 android:textColor="@color/colortexttext"
@@ -105,7 +100,6 @@
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colortexttext"
                 android:id="@+id/textInputLayoutPays"
@@ -118,7 +112,6 @@
                     android:id="@+id/textInputEditTextPays" />
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colortexttext"

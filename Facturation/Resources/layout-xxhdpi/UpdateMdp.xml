@@ -95,7 +95,7 @@
                     android:id="@+id/linearLayout4"
                     android:layout_margin="10dp">
                     <Button
-                        android:text="OK"
+                        android:text="@string/btnokcl4"
                         android:background="@drawable/s"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

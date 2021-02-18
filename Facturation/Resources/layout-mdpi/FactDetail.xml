@@ -71,12 +71,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editTextpaiementDatefacture" />
         </android.support.design.widget.TextInputLayout>
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textInputLayout5" />
+      
         <Button
-            android:text="Valider"
+            android:text="@string/Valider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonvaliderDetail"
